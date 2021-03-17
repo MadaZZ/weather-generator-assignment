@@ -1,0 +1,33 @@
+
+.weatherCard{
+    width: 50%;
+    border: 5px solid rgb(26, 2, 2);
+    margin: 20px;
+}
+.overview-data-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.overview-data-upper{
+    text-align: left;
+    padding: 20px;
+}
+
+.overview-data-lower{
+    text-align: right;
+    padding: 20px;
+}
+
+.separator{
+    width: 100%;
+    height: 2px;
+    background: black;
+}
+
+.key-value{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    display: flex;
+    flex-direction: column;
+}
